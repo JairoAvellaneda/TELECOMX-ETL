@@ -8,12 +8,13 @@ Este repositorio documenta un flujo ETL completo para analizar la evasión de cl
 - Generar visualizaciones claras y recursos didácticos para capacitaciones técnicas
 
  # Estructura del Proyecto
-| Carpeta | Contenido | 
-| data/ | Datos originales en formato JSON | 
-| notebooks/ | Cuaderno de análisis en Google Colab (TelecomX_LATAM.ipynb) | 
-| scripts/ | Código modular en Python para carga, transformación y visualización | 
-| output/ | Resultados procesados, gráficos y CSV exportados | 
-| graficos/ | Imágenes generadas para documentación y presentaciones | 
+| 📁 Carpeta       | 📌 Contenido                                                                 |
+|------------------|------------------------------------------------------------------------------|
+| 📦 `data/`        | Datos originales en formato JSON                                              |
+| 📓 `notebooks/`   | Cuaderno de análisis en Google Colab (`TelecomX_LATAM.ipynb`)                 |
+| 🧩 `scripts/`     | Código modular en Python para carga, transformación y visualización           |
+| 📤 `output/`      | Resultados procesados, gráficos y CSV exportados                              |
+| 🖼️ `graficos/`    | Imágenes generadas para documentación y presentaciones                        | 
 
 
 # Tecnologías Usadas
