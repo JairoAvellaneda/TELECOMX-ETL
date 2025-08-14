@@ -1,20 +1,32 @@
 # TELECOMX-ETL
-Analisis de evasion de clientes para Telecom X usando ETL con python
+Análisis de Evasión de Clientes en Telecom X usando ETL con Python
 
-# Telecom X – Análisis de Evasión de Clientes
+# Propósito del Proyecto
+Este repositorio documenta un flujo ETL completo para analizar la evasión de clientes (churn) en Telecom X. El objetivo es:
+- Identificar patrones de rotación mediante análisis exploratorio
+- Apoyar al equipo de Data Science en la creación de modelos predictivos
+- Generar visualizaciones claras y recursos didácticos para capacitaciones técnicas
 
-Este proyecto aplica técnicas de ETL con Python para analizar la evasión de clientes en Telecom X. El objetivo es identificar patrones que expliquen la rotación de clientes y apoyar al equipo de Data Science en la creación de modelos predictivos.
+ # Estructura del Proyecto
+| Carpeta | Contenido | 
+| data/ | Datos originales en formato JSON | 
+| notebooks/ | Cuaderno de análisis en Google Colab (TelecomX_LATAM.ipynb) | 
+| scripts/ | Código modular en Python para carga, transformación y visualización | 
+| output/ | Resultados procesados, gráficos y CSV exportados | 
+| graficos/ | Imágenes generadas para documentación y presentaciones | 
 
-## Estructura del proyecto
 
-- `data/`: Datos originales en formato JSON
-- `notebooks/`: Cuaderno de Google Colab con el análisis
-- `scripts/`: Código modular en Python
-- `output/`: Resultados, gráficos y CSVs
+# Tecnologías Usadas
+- Python (ETL y análisis)
+- Pandas (transformación de datos)
+- Matplotlib / Seaborn (visualización)
+- Google Colab (ejecución y documentación)
+- GitHub + Drive (organización y presentación)
 
-## Tecnologías usadas
+# Ejecución del Notebook
+Puedes abrir el análisis completo en Google Colab:
+link - https://colab.research.google.com/github/JairoAvellaneda/TELECOMX-ETL/blob/main/TelecomX_LATAM.ipynb
 
-- Python
-- Pandas
-- Matplotlib / Seaborn
-- Google Colab
+# Créditos y Autoría
+Proyecto desarrollado por Jairo Avellaneda, Trainer de Mantenimiento en Planta Externa en Telefónica Chile.
+Especializado en análisis de datos, documentación técnica y formación de equipos en telecomunicaciones.
